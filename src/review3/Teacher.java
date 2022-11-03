@@ -10,7 +10,7 @@ public class Teacher {
 	
 	//this. - use to refer to the current object : instance variables
 											//      instance methods
-	Teacher(String name, String lname){
+	public Teacher(String name, String lname){
 		this.name=name;
 		this.lname=lname;
 	}
@@ -27,7 +27,7 @@ public class Teacher {
 	}
 	
 	//static can work only with static
-	static void work() {
+	public static void work() {
 		System.out.println("All teachers work at "+school);
 	}
 	//instance member of the class can work with instance and static members
